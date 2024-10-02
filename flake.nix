@@ -24,6 +24,10 @@
         path = ./zigRaylib;
         description = "Flake for zig + raylib";
       };
+      elmPorts = {
+        path = ./elmPorst;
+        descriptrion = "Flake for elm ports";
+      };
     } // official.templates;
   };
 }
