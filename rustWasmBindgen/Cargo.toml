@@ -1,0 +1,11 @@
+[package]
+name = "wasm-bindgen-test"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+wasm-bindgen = "*"
+web-sys = { version = "*", features = ["Window"] }
+
+[lib]
+crate-type = ["cdylib"]
