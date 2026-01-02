@@ -8,6 +8,10 @@
         path = ./shell;
         description = "Quick shell";
       };
+      zig = {
+        path = ./zig;
+        description = "Simple zig flake";
+      };
       zig2nix = {
         path = ./zig2nix;
         description = "Simple flake using zig2nix";
