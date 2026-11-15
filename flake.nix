@@ -32,6 +32,10 @@
         path = ./zigGl;
         description = "Flake for zig + OpenGL";
       };
+      zigRaven = {
+        path = ./zigRaven;
+        description = "Flake for zig + Raven GUI"
+      }
       elmPorts = {
         path = ./elmPorst;
         descriptrion = "Flake for elm ports";

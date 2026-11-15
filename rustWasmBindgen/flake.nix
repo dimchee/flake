@@ -1,10 +1,7 @@
 {
-  description = "A very basic flake";
-
   inputs = {
     nixpkgs.url = "github:nixos/nixpkgs";
   };
-
   outputs = { nixpkgs, ... }:
     let
       system = "x86_64-linux";

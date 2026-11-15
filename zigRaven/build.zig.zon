@@ -1,0 +1,21 @@
+.{
+    .name = .RavenTest,
+    .version = "0.0.0",
+    .fingerprint = 0xe666181c1397fcb, // Changing this has security and trust implications.
+    .minimum_zig_version = "0.17.0",
+    .dependencies = .{
+        .raven = .{
+            .url = "git+https://github.com/oscar-soirey/Raven#7ab270df3b618de3d11af6033912374b6cd621b7",
+            .hash = "N-V-__8AAF7dJQIAYGKud3WD_UPtPhHqZ3jojt76yjKNApw4",
+        },
+        .@"raven-bin" = .{
+            .url = "https://release-assets.githubusercontent.com/github-production-release-asset/1411352230/f272ef1b-a7c4-4cb6-b81d-d0fc35224392?sp=r",
+            .hash = "N-V-__8AAOoaSgEtyLBPv3v-CD7Xwv8RivZ7dLw1FbsUJBQB",
+        },
+    },
+    .paths = .{
+        "build.zig",
+        "build.zig.zon",
+        "src",
+    },
+}
