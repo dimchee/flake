@@ -1,4 +1,5 @@
 {
+  description = "Simple elm + ports flake";
   inputs = {
     nixpkgs.url = "github:nixos/nixpkgs";
   };
